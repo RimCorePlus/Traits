@@ -1,0 +1,24 @@
+﻿<ModMetaData>
+	<packageId>boomer.modname</packageId>
+	<name>mod name</name>
+	<author>boomer</author>
+	<description />
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<!--optional-->
+	<modVersion />
+	<modIconPath IgnoreIfNoMatchingField="True" />
+	<url />
+	<descriptionsByVersion />
+	<modDependencies />
+	<modDependenciesByVersion />
+	<loadBefore />
+	<loadBeforeByVersion />
+	<forceLoadBefore />
+	<loadAfter />
+	<loadAfterByVersion />
+	<forceLoadAfter />
+	<incompatibleWith />
+	<incompatibleWithByVersion />
+</ModMetaData>

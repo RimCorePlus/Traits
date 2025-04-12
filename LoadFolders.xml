@@ -1,0 +1,9 @@
+<loadFolders>
+    <v1.5>
+        <li>/</li>
+        <li>1.5</li>
+        <li>Common</li> <!--for version-agnostic defs and patches-->
+        <!--<li IfModActive="Ludeon.Rimworld.Royalty">DLC/Royalty/1.5</li>-->
+        <!--<li IfModActive="CETeam.CombatExtended">Mods/Combat Extended/1.5</li>-->
+    </v1.5>
+</loadFolders>
