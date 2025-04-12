@@ -8,3 +8,5 @@
 [badge-dlc-biotech]: https://img.shields.io/badge/DLC-Biotech-mediumturquoise
 <!--![Supports Anomaly][badge-dlc-anomaly] supports Anomaly DLC-->
 [badge-dlc-anomaly]: https://img.shields.io/badge/DLC-Anomaly-darkseagreen
+
+Includes [Gwen's Gone Mental Traits](https://steamcommunity.com/sharedfiles/filedetails/?id=1848518121), originally released under public domain.
