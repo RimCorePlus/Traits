@@ -2,7 +2,7 @@
 <Defs>
   <TraitDef MayRequire="Mlie.MoreMentalBreaks">
     <defName>CorePlus_Traits_DeathWish</defName>
-    <commonality>1</commonality>
+    <commonality>0</commonality>
     <degreeDatas>
       <li>
         <label>death wish</label>
@@ -53,7 +53,7 @@
   
   <TraitDef MayRequire="Mlie.MoreMentalBreaks">
     <defName>CorePlus_Traits_Avoider</defName>
-    <commonality>1</commonality>
+    <commonality>0</commonality>
     <degreeDatas>
       <li>
         <label>death wish</label>

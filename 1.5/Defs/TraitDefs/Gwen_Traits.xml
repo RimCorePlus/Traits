@@ -2,7 +2,7 @@
 <Defs>
   <TraitDef>
     <defName>CorePlus_Traits_Restless</defName>
-    <commonality>1</commonality>
+    <commonality>0</commonality>
     <degreeDatas>
       <li>
         <label>restless</label>
@@ -54,7 +54,7 @@
   </TraitDef>
   <TraitDef>
     <defName>CorePlus_Traits_Shut_in</defName>
-    <commonality>1</commonality>
+    <commonality>0</commonality>
     <degreeDatas>
       <li>
         <label>shut-in</label>
@@ -96,7 +96,7 @@
   </TraitDef>
   <TraitDef>
     <defName>CorePlus_Traits_Morbid</defName>
-    <commonality>1</commonality>
+    <commonality>0</commonality>
     <degreeDatas>
       <li>
         <label>morbid</label>
@@ -172,7 +172,7 @@
   </TraitDef>
   <TraitDef>
     <defName>CorePlus_Traits_Oblivious</defName>
-    <commonality>1</commonality>
+    <commonality>0</commonality>
     <degreeDatas>
       <li>
         <label>oblivious</label>
@@ -202,7 +202,7 @@
   </TraitDef>
   <TraitDef>
     <defName>CorePlus_Traits_Benevolent</defName>
-    <commonality>1</commonality>
+    <commonality>0</commonality>
     <degreeDatas>
       <li>
         <label>benevolent</label>
@@ -250,7 +250,7 @@
   </TraitDef>
   <TraitDef>
     <defName>CorePlus_Traits_Simple</defName>
-    <commonality>1</commonality>
+    <commonality>0</commonality>
     <degreeDatas>
       <li>
         <label>simple</label>
@@ -273,7 +273,7 @@
   </TraitDef>
   <TraitDef>
     <defName>CorePlus_Traits_Ennui</defName>
-    <commonality>1</commonality>
+    <commonality>0</commonality>
     <degreeDatas>
       <li>
         <label>ennui</label>
@@ -303,7 +303,7 @@
   </TraitDef>
   <TraitDef>
     <defName>CorePlus_Traits_Malchemist</defName>
-    <commonality>1</commonality>
+    <commonality>0</commonality>
     <degreeDatas>
       <li>
         <label>malchemist</label>
@@ -346,7 +346,7 @@
   </TraitDef>
   <TraitDef>
     <defName>CorePlus_Traits_ColdResistant</defName>
-    <commonality>1</commonality>
+    <commonality>0</commonality>
     <degreeDatas>
       <li>
         <label>cold resistant</label>
@@ -363,7 +363,7 @@
   </TraitDef>
   <TraitDef>
     <defName>CorePlus_Traits_HeatResistant</defName>
-    <commonality>1</commonality>
+    <commonality>0</commonality>
     <degreeDatas>
       <li>
         <label>heat resistant</label>
@@ -380,7 +380,7 @@
   </TraitDef>
   <TraitDef>
     <defName>CorePlus_Traits_Frangofilia</defName>
-    <commonality>1</commonality>
+    <commonality>0</commonality>
     <degreeDatas>
       <li>
         <label>frangofilia</label>
@@ -432,7 +432,7 @@
   </TraitDef>
   <TraitDef>
     <defName>CorePlus_Traits_GloomDweller</defName>
-    <commonality>1</commonality>
+    <commonality>0</commonality>
     <degreeDatas>
       <li>
         <label>gloom dweller</label>
@@ -466,7 +466,7 @@
   </TraitDef>
   <TraitDef>
     <defName>CorePlus_Traits_Torpid</defName>
-    <commonality>1</commonality>
+    <commonality>0</commonality>
     <degreeDatas>
       <li>
         <label>torpid</label>
@@ -507,7 +507,7 @@
   </TraitDef>
   <TraitDef>
     <defName>CorePlus_Traits_AnimalLover</defName>
-    <commonality>1</commonality>
+    <commonality>0</commonality>
     <degreeDatas>
       <li>
         <label>animal attuned</label>
@@ -548,7 +548,7 @@
   </TraitDef>
   <TraitDef>
     <defName>CorePlus_Traits_Pyschicly_Inverted</defName>
-    <commonality>1</commonality>
+    <commonality>0</commonality>
     <degreeDatas>
       <li>
         <label>Psychically Inverted</label>
@@ -565,7 +565,7 @@
   </TraitDef>
   <TraitDef>
     <defName>CorePlus_Traits_Spiteful</defName>
-    <commonality>1</commonality>
+    <commonality>0</commonality>
     <degreeDatas>
       <li>
         <label>Spiteful</label>
@@ -620,7 +620,7 @@
   </TraitDef>
   <TraitDef>
     <defName>CorePlus_Traits_Misotherist</defName>
-    <commonality>1</commonality>
+    <commonality>0</commonality>
     <degreeDatas>
       <li>
         <label>Misotherist</label>
@@ -681,7 +681,7 @@
   
   <TraitDef>
     <defName>CorePlus_Traits_SociallyNumb</defName>
-    <commonality>1</commonality>
+    <commonality>0</commonality>
     <degreeDatas>
       <li>
         <label>socially numb</label>
@@ -721,7 +721,7 @@
   
   <TraitDef>
     <defName>CorePlus_Traits_FoodApathy</defName>
-    <commonality>1</commonality>
+    <commonality>0</commonality>
     <degreeDatas>
       <li>
         <label>Food Apathy</label>
