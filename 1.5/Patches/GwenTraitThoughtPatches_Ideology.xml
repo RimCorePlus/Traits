@@ -5,16 +5,16 @@
 			<li>Ideology</li>
 		</mods>
 		<match Class="PatchOperationConditional">
-			<xpath>Defs/ThoughtDef[defName="Thought_MemoryObservationTerror"]/nullifyingTraits</xpath>
+			<xpath>//ThoughtDef[defName="Thought_MemoryObservationTerror"]/nullifyingTraits</xpath>
 			<success>Always</success>
 			<match Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="Thought_MemoryObservationTerror"]/nullifyingTraits</xpath>
+			  <xpath>//ThoughtDef[defName="Thought_MemoryObservationTerror"]/nullifyingTraits</xpath>
 			  <value>
 				<li>CorePlus_Traits_Oblivious</li>
 			  </value>
 			</match>
 			<nomatch Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="Thought_MemoryObservationTerror"]</xpath>
+			  <xpath>//ThoughtDef[defName="Thought_MemoryObservationTerror"]</xpath>
 			  <value>
 				<nullifyingTraits>
 				  <li>CorePlus_Traits_Oblivious</li>
@@ -28,16 +28,16 @@
 			<li>Ideology</li>
 		</mods>
 		<match Class="PatchOperationConditional">
-			<xpath>Defs/ThoughtDef[defName="IdeoBuildingDisrespected"]/nullifyingTraits</xpath>
+			<xpath>//ThoughtDef[defName="IdeoBuildingDisrespected"]/nullifyingTraits</xpath>
 			<success>Always</success>
 			<match Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="IdeoBuildingDisrespected"]/nullifyingTraits</xpath>
+			  <xpath>//ThoughtDef[defName="IdeoBuildingDisrespected"]/nullifyingTraits</xpath>
 			  <value>
 				<li>CorePlus_Traits_Oblivious</li>
 			  </value>
 			</match>
 			<nomatch Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="IdeoBuildingDisrespected"]</xpath>
+			  <xpath>//ThoughtDef[defName="IdeoBuildingDisrespected"]</xpath>
 			  <value>
 				<nullifyingTraits>
 				  <li>CorePlus_Traits_Oblivious</li>
@@ -51,16 +51,16 @@
 			<li>Ideology</li>
 		</mods>
 		<match Class="PatchOperationConditional">
-			<xpath>Defs/ThoughtDef[defName="Thought_IdeoMissingBuilding"]/nullifyingTraits</xpath>
+			<xpath>//ThoughtDef[defName="Thought_IdeoMissingBuilding"]/nullifyingTraits</xpath>
 			<success>Always</success>
 			<match Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="Thought_IdeoMissingBuilding"]/nullifyingTraits</xpath>
+			  <xpath>//ThoughtDef[defName="Thought_IdeoMissingBuilding"]/nullifyingTraits</xpath>
 			  <value>
 				<li>CorePlus_Traits_Oblivious</li>
 			  </value>
 			</match>
 			<nomatch Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="Thought_IdeoMissingBuilding"]</xpath>
+			  <xpath>//ThoughtDef[defName="Thought_IdeoMissingBuilding"]</xpath>
 			  <value>
 				<nullifyingTraits>
 				  <li>CorePlus_Traits_Oblivious</li>
@@ -74,16 +74,16 @@
 			<li>Ideology</li>
 		</mods>
 		<match Class="PatchOperationConditional">
-			<xpath>Defs/ThoughtDef[defName="BiosculpterPleasure"]/nullifyingTraits</xpath>
+			<xpath>//ThoughtDef[defName="BiosculpterPleasure"]/nullifyingTraits</xpath>
 			<success>Always</success>
 			<match Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="BiosculpterPleasure"]/nullifyingTraits</xpath>
+			  <xpath>//ThoughtDef[defName="BiosculpterPleasure"]/nullifyingTraits</xpath>
 			  <value>
 				<li>CorePlus_Traits_DeadendNerves</li>
 			  </value>
 			</match>
 			<nomatch Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="BiosculpterPleasure"]</xpath>
+			  <xpath>//ThoughtDef[defName="BiosculpterPleasure"]</xpath>
 			  <value>
 				<nullifyingTraits>
 				  <li>CorePlus_Traits_DeadendNerves</li>
@@ -97,16 +97,16 @@
 			<li>Ideology</li>
 		</mods>
 		<match Class="PatchOperationConditional">
-			<xpath>Defs/ThoughtDef[defName="Thought_IdeoRoleLost"]/nullifyingTraits</xpath>
+			<xpath>//ThoughtDef[defName="Thought_IdeoRoleLost"]/nullifyingTraits</xpath>
 			<success>Always</success>
 			<match Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="Thought_IdeoRoleLost"]/nullifyingTraits</xpath>
+			  <xpath>//ThoughtDef[defName="Thought_IdeoRoleLost"]/nullifyingTraits</xpath>
 			  <value>
 				<li>CorePlus_Traits_SociallyNumb</li>
 			  </value>
 			</match>
 			<nomatch Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="Thought_IdeoRoleLost"]</xpath>
+			  <xpath>//ThoughtDef[defName="Thought_IdeoRoleLost"]</xpath>
 			  <value>
 				<nullifyingTraits>
 				  <li>CorePlus_Traits_SociallyNumb</li>
@@ -120,16 +120,16 @@
 			<li>Ideology</li>
 		</mods>
 		<match Class="PatchOperationConditional">
-			<xpath>Defs/ThoughtDef[defName="Thought_IdeoRoleEmpty"]/nullifyingTraits</xpath>
+			<xpath>//ThoughtDef[defName="Thought_IdeoRoleEmpty"]/nullifyingTraits</xpath>
 			<success>Always</success>
 			<match Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="Thought_IdeoRoleEmpty"]/nullifyingTraits</xpath>
+			  <xpath>//ThoughtDef[defName="Thought_IdeoRoleEmpty"]/nullifyingTraits</xpath>
 			  <value>
 				<li>CorePlus_Traits_SociallyNumb</li>
 			  </value>
 			</match>
 			<nomatch Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="Thought_IdeoRoleEmpty"]</xpath>
+			  <xpath>//ThoughtDef[defName="Thought_IdeoRoleEmpty"]</xpath>
 			  <value>
 				<nullifyingTraits>
 				  <li>CorePlus_Traits_SociallyNumb</li>
@@ -143,16 +143,16 @@
 			<li>Ideology</li>
 		</mods>
 		<match Class="PatchOperationConditional">
-			<xpath>Defs/ThoughtDef[defName="Thought_IdeoLeaderResentment"]/nullifyingTraits</xpath>
+			<xpath>//ThoughtDef[defName="Thought_IdeoLeaderResentment"]/nullifyingTraits</xpath>
 			<success>Always</success>
 			<match Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="Thought_IdeoLeaderResentment"]/nullifyingTraits</xpath>
+			  <xpath>//ThoughtDef[defName="Thought_IdeoLeaderResentment"]/nullifyingTraits</xpath>
 			  <value>
 				<li>CorePlus_Traits_SociallyNumb</li>
 			  </value>
 			</match>
 			<nomatch Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="Thought_IdeoLeaderResentment"]</xpath>
+			  <xpath>//ThoughtDef[defName="Thought_IdeoLeaderResentment"]</xpath>
 			  <value>
 				<nullifyingTraits>
 				  <li>CorePlus_Traits_SociallyNumb</li>
@@ -166,16 +166,16 @@
 			<li>Ideology</li>
 		</mods>
 		<match Class="PatchOperationConditional">
-			<xpath>Defs/ThoughtDef[defName="LacklusterFuneral"]/nullifyingTraits</xpath>
+			<xpath>//ThoughtDef[defName="LacklusterFuneral"]/nullifyingTraits</xpath>
 			<success>Always</success>
 			<match Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="LacklusterFuneral"]/nullifyingTraits</xpath>
+			  <xpath>//ThoughtDef[defName="LacklusterFuneral"]/nullifyingTraits</xpath>
 			  <value>
 				<li>CorePlus_Traits_Morbid</li>
 			  </value>
 			</match>
 			<nomatch Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="LacklusterFuneral"]</xpath>
+			  <xpath>//ThoughtDef[defName="LacklusterFuneral"]</xpath>
 			  <value>
 				<nullifyingTraits>
 				  <li>CorePlus_Traits_Morbid</li>
@@ -189,16 +189,16 @@
 			<li>Ideology</li>
 		</mods>
 		<match Class="PatchOperationConditional">
-			<xpath>Defs/ThoughtDef[defName="TerribleFuneral"]/nullifyingTraits</xpath>
+			<xpath>//ThoughtDef[defName="TerribleFuneral"]/nullifyingTraits</xpath>
 			<success>Always</success>
 			<match Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="TerribleFuneral"]/nullifyingTraits</xpath>
+			  <xpath>//ThoughtDef[defName="TerribleFuneral"]/nullifyingTraits</xpath>
 			  <value>
 				<li>CorePlus_Traits_Morbid</li>
 			  </value>
 			</match>
 			<nomatch Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="TerribleFuneral"]</xpath>
+			  <xpath>//ThoughtDef[defName="TerribleFuneral"]</xpath>
 			  <value>
 				<nullifyingTraits>
 				  <li>CorePlus_Traits_Morbid</li>
@@ -212,16 +212,16 @@
 			<li>Ideology</li>
 		</mods>
 		<match Class="PatchOperationConditional">
-			<xpath>Defs/ThoughtDef[defName="TerribleSacrifice"]/nullifyingTraits</xpath>
+			<xpath>//ThoughtDef[defName="TerribleSacrifice"]/nullifyingTraits</xpath>
 			<success>Always</success>
 			<match Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="TerribleSacrifice"]/nullifyingTraits</xpath>
+			  <xpath>//ThoughtDef[defName="TerribleSacrifice"]/nullifyingTraits</xpath>
 			  <value>
 				<li>CorePlus_Traits_Morbid</li>
 			  </value>
 			</match>
 			<nomatch Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="TerribleSacrifice"]</xpath>
+			  <xpath>//ThoughtDef[defName="TerribleSacrifice"]</xpath>
 			  <value>
 				<nullifyingTraits>
 				  <li>CorePlus_Traits_Morbid</li>
@@ -235,16 +235,16 @@
 			<li>Ideology</li>
 		</mods>
 		<match Class="PatchOperationConditional">
-			<xpath>Defs/ThoughtDef[defName="BoringSacrifice"]/nullifyingTraits</xpath>
+			<xpath>//ThoughtDef[defName="BoringSacrifice"]/nullifyingTraits</xpath>
 			<success>Always</success>
 			<match Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="BoringSacrifice"]/nullifyingTraits</xpath>
+			  <xpath>//ThoughtDef[defName="BoringSacrifice"]/nullifyingTraits</xpath>
 			  <value>
 				<li>CorePlus_Traits_Morbid</li>
 			  </value>
 			</match>
 			<nomatch Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="BoringSacrifice"]</xpath>
+			  <xpath>//ThoughtDef[defName="BoringSacrifice"]</xpath>
 			  <value>
 				<nullifyingTraits>
 				  <li>CorePlus_Traits_Morbid</li>
@@ -258,16 +258,16 @@
 			<li>Ideology</li>
 		</mods>
 		<match Class="PatchOperationConditional">
-			<xpath>Defs/ThoughtDef[defName="AwkwardExecution"]/nullifyingTraits</xpath>
+			<xpath>//ThoughtDef[defName="AwkwardExecution"]/nullifyingTraits</xpath>
 			<success>Always</success>
 			<match Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="AwkwardExecution"]/nullifyingTraits</xpath>
+			  <xpath>//ThoughtDef[defName="AwkwardExecution"]/nullifyingTraits</xpath>
 			  <value>
 				<li>CorePlus_Traits_Morbid</li>
 			  </value>
 			</match>
 			<nomatch Class="PatchOperationAdd">
-			  <xpath>Defs/ThoughtDef[defName="AwkwardExecution"]</xpath>
+			  <xpath>//ThoughtDef[defName="AwkwardExecution"]</xpath>
 			  <value>
 				<nullifyingTraits>
 				  <li>CorePlus_Traits_Morbid</li>
