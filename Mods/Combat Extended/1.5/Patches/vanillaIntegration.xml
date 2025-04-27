@@ -1,0 +1,43 @@
+<Patch>
+    <Operation Class="VFECore.PatchOperationToggableSequence">
+        <enabled>True</enabled>
+        <label>merge Bravery traits from Combat Extended into Nerves traits from vanilla</label>
+        <operations>
+            <!--equivalent to "fearless"-->
+            <li Class="PatchOperationAdd">
+                <xpath>//TraitDef[defName="Nerves"]/degreeDatas/li[label="iron-willed"]/statOffsets</xpath>
+                <value>
+                    <Suppressability MayRequire="ceteam.combatextended">-1.0</Suppressability>
+                </value>
+            </li>
+            <!--equivalent to "brave"-->
+            <li Class="PatchOperationAdd">
+                <xpath>//TraitDef[defName="Nerves"]/degreeDatas/li[label="steadfast"]/statOffsets</xpath>
+                <value>
+                    <Suppressability MayRequire="ceteam.combatextended">-0.5</Suppressability>
+                </value>
+            </li>
+            <!--equivalent to "cowardly"-->
+            <li Class="PatchOperationAdd">
+                <xpath>//TraitDef[defName="Nerves"]/degreeDatas/li[label="nervous"]/statOffsets</xpath>
+                <value>
+                    <Suppressability MayRequire="ceteam.combatextended">0.25</Suppressability>
+                </value>
+            </li>
+            <!--new value-->
+            <li Class="PatchOperationAdd">
+                <xpath>//TraitDef[defName="Nerves"]/degreeDatas/li[label="volatile"]/statOffsets</xpath>
+                <value>
+                    <Suppressability MayRequire="ceteam.combatextended">0.5</Suppressability>
+                </value>
+            </li>
+            <!--reduce commonality of "Bravery" traits to 0, non-destructive removal-->
+            <li Class="PatchOperationReplace">
+                <xpath>//TraitDef[defName="Bravery"]/commonality</xpath>
+                <value>
+                    <commonality>0</commonality>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

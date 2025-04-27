@@ -1,0 +1,23 @@
+<Defs>
+    <TraitDef>
+        <defName>CorePlus_Stealth</defName>
+        <degreeDatas>
+            <li>
+                <label>covert</label>
+                <description>[PAWN_nameDef] moves with practiced subtlety, making [PAWN_objective] much harder to detect. Whether stalking prey or slipping through shadows, [PAWN_pronoun] knows how to stay unseen.</description>
+                <degree>1</degree>
+                <statOffsets>
+                    <HuntingStealth>0.5</HuntingStealth>
+                </statOffsets>
+            </li>
+            <li>
+                <label>club-footed</label>
+                <description>[PAWN_nameDef] struggles to move quietly, often giving away [PAWN_possessive] position with clumsy footsteps. Hunting and stealth are a challenge for [PAWN_objective], as silence does not come naturally.</description>
+                <degree>-1</degree>
+                <statOffsets>
+                    <HuntingStealth>-0.5</HuntingStealth>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+</Defs>

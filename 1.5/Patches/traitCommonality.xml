@@ -1,0 +1,38 @@
+<Patch>
+    <Operation Class="VFECore.PatchOperationToggableSequence">
+        <enabled>True</enabled>
+        <label>adjust trait commonality</label>
+        <operations>
+            <!--significantly reduce commonality of greedy (1) and jealous (1) traits-->
+            <li Class="PatchOperationAdd">
+                <xpath>//TraitDef[defName="Greedy" or defName="Jealous"]</xpath>
+                <value>
+                    <commonality>0.2</commonality>
+                </value>
+            </li>
+            <!--and pyromaniac (0.8)-->
+            <li Class="PatchOperationReplace">
+                <xpath>//TraitDef[defName="Pyromaniac"]/commonality</xpath>
+                <value>
+                    <commonality>0.2</commonality>
+                </value>
+            </li>
+            <!--flatten commonality for all traits (vanilla and modded) that are above 1-->
+            <li Class="PatchOperationReplace">
+                <xpath>//TraitDef/commonality[. > 1]</xpath>
+                <value>
+                    <commonality>1</commonality>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>//TraitDef/commonalityFemale[. > 1]</xpath>
+                <value>
+                    <commonalityFemale>1</commonalityFemale>
+                </value>
+            </li>
+            <!--I should expand this to a full refactor of trait commonality at some point
+            I don't like the traits I see on pawns in the vanilla game, and mods only make things worse
+            I'm going to leave it here for now-->
+        </operations>
+    </Operation>
+</Patch>
