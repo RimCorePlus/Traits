@@ -101,7 +101,9 @@
       <li>
         <label>morbid</label>
         <description>{PAWN_nameDef} is fascinated with dead bodies. {PAWN_pronoun} has no bad thoughts related to corpses and often will, in fact, dig them up to marvel at them. {PAWN_pronoun} doesn't mind if a funeral, execution, or sacrifice goes bad.</description>
-        <allowedMeditationFocusTypes><li>Morbid</li></allowedMeditationFocusTypes>
+        <allowedMeditationFocusTypes>
+          <li>Morbid</li>
+        </allowedMeditationFocusTypes>
         <randomMentalState>CorpseObsession</randomMentalState>
         <randomMentalStateMtbDaysMoodCurve>
           <points>
@@ -143,7 +145,7 @@
         <description>{PAWN_nameDef} has deadened nerves and can't feel physical sensations properly. {PAWN_pronoun} doesn't feel comfort or discomfort properly. {PAWN_nameDef} Has no thoughts related to their physical state.</description>
         <statOffsets>
           <PainShockThreshold>1.00</PainShockThreshold>
-		  <StaggerDurationFactor>0.5</StaggerDurationFactor>
+          <StaggerDurationFactor>0.5</StaggerDurationFactor>
           <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
           <MoveSpeed>-.10</MoveSpeed>
         </statOffsets>
@@ -213,10 +215,10 @@
             <li>(0, 50)</li>
           </points>
         </randomMentalStateMtbDaysMoodCurve>
-		<statFactors>
-		  <ConversionPower>1.5</ConversionPower>
-		  <SocialIdeoSpreadFrequencyFactor>1.5</SocialIdeoSpreadFrequencyFactor>
-		</statFactors>
+        <statFactors>
+          <ConversionPower>1.5</ConversionPower>
+          <SocialIdeoSpreadFrequencyFactor>1.5</SocialIdeoSpreadFrequencyFactor>
+        </statFactors>
         <statOffsets>
           <NegotiationAbility>0.1</NegotiationAbility>
           <SocialImpact>0.1</SocialImpact>
@@ -313,7 +315,7 @@
           <DrugSynthesisSpeed>1</DrugSynthesisSpeed>
           <FoodPoisonChance>2</FoodPoisonChance>
           <ToxicEnvironmentResistance>-0.1</ToxicEnvironmentResistance>
-		  <ToxicResistance>-0.1</ToxicResistance>
+          <ToxicResistance>-0.1</ToxicResistance>
           <ImmunityGainSpeed>0.1</ImmunityGainSpeed>
           <MedicalTendQuality>-0.2</MedicalTendQuality>
         </statOffsets>
@@ -396,8 +398,12 @@
             <li>(0, 50)</li>
           </points>
         </randomMentalStateMtbDaysMoodCurve>
-        <allowedMeditationFocusTypes><li>Natural</li></allowedMeditationFocusTypes>
-        <disallowedMeditationFocusTypes><li>Artistic</li></disallowedMeditationFocusTypes>
+        <allowedMeditationFocusTypes>
+          <li>Natural</li>
+        </allowedMeditationFocusTypes>
+        <disallowedMeditationFocusTypes>
+          <li>Artistic</li>
+        </disallowedMeditationFocusTypes>
         <statOffsets>
           <ForagedNutritionPerDay>1</ForagedNutritionPerDay>
           <AnimalGatherYield>0.1</AnimalGatherYield>
@@ -480,7 +486,7 @@
           <BedHungerRateFactor>-1</BedHungerRateFactor>
           <ImmunityGainSpeed>0.30</ImmunityGainSpeed>
           <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
-		  <ToxicResistance>0.5</ToxicResistance>
+          <ToxicResistance>0.5</ToxicResistance>
         </statOffsets>
       </li>
     </degreeDatas>
@@ -678,7 +684,7 @@
       <li>PlantWork</li>
     </disabledWorkTags>
   </TraitDef>
-  
+
   <TraitDef>
     <defName>CorePlus_Traits_SociallyNumb</defName>
     <commonality>0</commonality>
@@ -718,7 +724,7 @@
       <li>Social</li>
     </disabledWorkTags>
   </TraitDef>
-  
+
   <TraitDef>
     <defName>CorePlus_Traits_FoodApathy</defName>
     <commonality>0</commonality>
@@ -728,8 +734,8 @@
         <description>{PAWN_nameDef} shovels food quickly into their mouths not caring what it tastes like or is made from.{PAWN_nameDef} has no thoughts related to food or where they ate.</description>
         <statFactors>
           <!-- Optional. Modifies pawn stats by multiplier -->
-			<EatingSpeed>1</EatingSpeed>
-			<RawNutritionFactor>0.25</RawNutritionFactor>
+          <EatingSpeed>1</EatingSpeed>
+          <RawNutritionFactor>0.25</RawNutritionFactor>
         </statFactors>
         <statOffsets>
         </statOffsets>
@@ -756,5 +762,5 @@
       <!-- <li>CorePlus_Traits_HeatResistant</li> -->
     </conflictingTraits>
   </TraitDef>
-  
+
 </Defs>

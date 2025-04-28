@@ -105,11 +105,13 @@
                 <statOffsets>
                     <GeneralLaborSpeed>0.25</GeneralLaborSpeed>
                     <CleaningSpeed>0.25</CleaningSpeed>
-                    <CarryingCapacity>0.2</CarryingCapacity>
+                    <CarryingCapacity>15</CarryingCapacity>
                 </statOffsets>
             </li>
         </degreeDatas>
         <requiredWorkTags>
+            <li>Cleaning</li>
+            <li>Hauling</li>
             <li>ManualDumb</li>
         </requiredWorkTags>
         <disabledWorkTags>
