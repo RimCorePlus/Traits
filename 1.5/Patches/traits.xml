@@ -1,6 +1,6 @@
 <Patch>
     <Operation Class="VFECore.PatchOperationToggableSequence">
-        <enabled>True</enabled>
+        <enabled>true</enabled>
         <label>replace vanilla trait skillgains with passions and tweak stat offsets</label>
         <operations>
             <!--brawler (keeping the shooting skill debuff)-->

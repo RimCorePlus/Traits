@@ -1,6 +1,6 @@
 <Patch>
     <Operation Class="VFECore.PatchOperationToggableSequence">
-        <enabled>True</enabled>
+        <enabled>true</enabled>
         <label>merge Bravery traits from Combat Extended into Nerves traits from vanilla</label>
         <operations>
             <!--equivalent to "fearless"-->
