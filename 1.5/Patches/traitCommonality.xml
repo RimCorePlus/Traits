@@ -10,9 +10,9 @@
                     <commonality>0.2</commonality>
                 </value>
             </li>
-            <!--and pyromaniac (0.8)-->
+            <!--and pyromaniac (0.8) and nudist (0.7)-->
             <li Class="PatchOperationReplace">
-                <xpath>//TraitDef[defName="Pyromaniac"]/commonality/text()</xpath>
+                <xpath>//TraitDef[defName="Pyromaniac" or defName="Nudist"]/commonality/text()</xpath>
                 <value>0.2</value>
             </li>
             <!--flatten commonality for all traits (vanilla and modded) that are above 1-->
