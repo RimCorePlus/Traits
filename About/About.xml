@@ -1,10 +1,11 @@
 ﻿<ModMetaData>
     <packageId>coreplus.traits</packageId>
-    <name>[CorePlus] Traits</name>
+    <name>[RCP] Traits</name>
     <author>boomer</author>
     <supportedVersions>
         <li>1.5</li>
     </supportedVersions>
+	<url>https://github.com/RimCorePlus/Traits</url>
     <loadAfter>
         <li>ceteam.combatextended</li>
         <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
