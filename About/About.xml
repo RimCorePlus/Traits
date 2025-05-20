@@ -6,7 +6,6 @@
     <supportedVersions>
         <li>1.5</li>
     </supportedVersions>
-    <!--optional-->
     <modVersion />
     <modIconPath IgnoreIfNoMatchingField="True" />
     <url />
