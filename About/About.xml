@@ -2,32 +2,11 @@
     <packageId>coreplus.traits</packageId>
     <name>[CorePlus] Traits</name>
     <author>boomer</author>
-    <description />
     <supportedVersions>
         <li>1.5</li>
     </supportedVersions>
-    <modVersion />
-    <modIconPath IgnoreIfNoMatchingField="True" />
-    <url />
-    <descriptionsByVersion />
-    <modDependencies>
-        <li>
-            <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
-            <displayName>Vanilla Expanded Framework</displayName>
-            <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
-            <downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
-        </li>
-    </modDependencies>
-    <modDependenciesByVersion />
-    <loadBefore />
-    <loadBeforeByVersion />
-    <forceLoadBefore />
     <loadAfter>
         <li>ceteam.combatextended</li>
         <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
     </loadAfter>
-    <loadAfterByVersion />
-    <forceLoadAfter />
-    <incompatibleWith />
-    <incompatibleWithByVersion />
 </ModMetaData>
