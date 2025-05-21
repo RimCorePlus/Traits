@@ -1,7 +1,21 @@
 <Patch>
     <Operation Class="VFECore.PatchOperationToggableSequence">
         <enabled>true</enabled>
-        <label>adjust trait commonality</label>
+        <label>Cap all trait commonality at 1</label>
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>//TraitDef/commonality[. > 1]/text()</xpath>
+                <value>1</value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>//TraitDef/commonalityFemale[. > 1]/text()</xpath>
+                <value>1</value>
+            </li>
+        </operations>
+    </Operation>
+    <Operation Class="VFECore.PatchOperationToggableSequence">
+        <enabled>true</enabled>
+        <label>Lower commonality for negative traits</label>
         <operations>
             <!--significantly reduce commonality of greedy (1) and jealous (1) traits-->
             <li Class="PatchOperationAdd">
@@ -15,18 +29,6 @@
                 <xpath>//TraitDef[defName="Pyromaniac" or defName="Nudist"]/commonality/text()</xpath>
                 <value>0.2</value>
             </li>
-            <!--flatten commonality for all traits (vanilla and modded) that are above 1-->
-            <li Class="PatchOperationReplace">
-                <xpath>//TraitDef/commonality[. > 1]/text()</xpath>
-                <value>1</value>
-            </li>
-            <li Class="PatchOperationReplace">
-                <xpath>//TraitDef/commonalityFemale[. > 1]/text()</xpath>
-                <value>1</value>
-            </li>
-            <!--I should expand this to a full refactor of trait commonality at some point
-            I don't like the traits I see on pawns in the vanilla game, and mods only make things worse
-            I'm going to leave it here for now-->
         </operations>
     </Operation>
 </Patch>
