@@ -1,6 +1,6 @@
 <Defs>
     <TraitDef>
-        <defName>CorePlus_Stealth</defName>
+        <defName>RCP_Stealth</defName>
         <degreeDatas>
             <li>
                 <label>covert</label>

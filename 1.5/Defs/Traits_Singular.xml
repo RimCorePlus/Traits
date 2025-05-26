@@ -1,6 +1,6 @@
 <Defs>
     <TraitDef>
-        <defName>CorePlus_Brittle</defName>
+        <defName>RCP_Brittle</defName>
         <commonality>0.8</commonality>
         <degreeDatas>
             <li>
@@ -19,7 +19,7 @@
         </conflictingTraits>
     </TraitDef>
     <TraitDef>
-        <defName>CorePlus_DrugDealer</defName>
+        <defName>RCP_DrugDealer</defName>
         <commonality>0.4</commonality>
         <degreeDatas>
             <li>
@@ -49,7 +49,7 @@
         </requiredWorkTags>
     </TraitDef>
     <TraitDef>
-        <defName>CorePlus_Eloquent</defName>
+        <defName>RCP_Eloquent</defName>
         <commonality>0.4</commonality>
         <degreeDatas>
             <li>
@@ -71,7 +71,7 @@
         </forcedPassions>
     </TraitDef>
     <TraitDef>
-        <defName>CorePlus_GreenThumb</defName>
+        <defName>RCP_GreenThumb</defName>
         <commonality>0.4</commonality>
         <degreeDatas>
             <li>
@@ -88,15 +88,15 @@
             <li>PlantWork</li>
         </requiredWorkTags>
         <conflictingTraits>
-            <li>CorePlus_DrugDealer</li>
-            <li>CorePlus_Laborer</li>
+            <li>RCP_DrugDealer</li>
+            <li>RCP_Laborer</li>
         </conflictingTraits>
         <forcedPassions>
             <li>Plants</li>
         </forcedPassions>
     </TraitDef>
     <TraitDef>
-        <defName>CorePlus_Laborer</defName>
+        <defName>RCP_Laborer</defName>
         <commonality>0.1</commonality>
         <degreeDatas>
             <li>
@@ -118,8 +118,8 @@
             <li>ManualSkilled</li>
         </disabledWorkTags>
         <conflictingTraits>
-            <li>CorePlus_DrugDealer</li>
-            <li>CorePlus_GreenThumb</li>
+            <li>RCP_DrugDealer</li>
+            <li>RCP_GreenThumb</li>
         </conflictingTraits>
     </TraitDef>
 </Defs>
