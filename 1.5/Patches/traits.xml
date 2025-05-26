@@ -1,7 +1,10 @@
 <Patch>
-    <Operation Class="VFECore.PatchOperationToggableSequence">
-        <enabled>true</enabled>
-        <label>Replace trait skillgains with passions and stat offsets</label>
+    <Operation Class="ModSettingsFramework.PatchOperationModOption">
+        <defaultValue>false</defaultValue>
+        <label>Replace trait skillgains with passion gains and stat offsets</label>
+        <id>RCP_TraitsSkillGain</id>
+        <category>RCP_TraitsPatches</category>
+        <order>1</order>
         <operations>
             <!--brawler (keeping the shooting skill debuff)-->
             <li Class="PatchOperationRemove">
