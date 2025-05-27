@@ -2,7 +2,7 @@
     <Operation Class="ModSettingsFramework.PatchOperationModOption">
         <defaultValue>false</defaultValue>
         <label>[Combat Extended] Merge Bravery traits into Nerves traits</label>
-        <tooltip>Adds suppressability from CE Bravery traits (Fearless, Cowardly, etc) to Nerves traits (Iron-willed, Nervous, etc) and lowers the commonality of CE Nerves traits to 0 so they don't generate on new pawns.</tooltip>
+        <tooltip>Adds suppressability from CE Bravery traits (Fearless, Cowardly, etc) to Nerves traits (Iron-willed, Nervous, etc) and lowers the commonality of CE Bravery traits to 0 so they don't generate on new pawns.</tooltip>
         <id>RCP_TraitsCEBravery</id>
         <category>RCP_TraitsModPatches</category>
         <order>101</order>

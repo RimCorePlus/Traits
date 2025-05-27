@@ -1,14 +1,14 @@
 <Defs>
-    <ModSettingsFramework.ModOptionCategoryDef Name="RG_ModOptionsBase" Abstract="True">
+    <ModSettingsFramework.ModOptionCategoryDef Name="RCP_TraitsModOptionsBase" Abstract="True">
         <modSettingsName>[RCP] Traits</modSettingsName>
         <modPackageSettingsID>RCP.Traits</modPackageSettingsID>
     </ModSettingsFramework.ModOptionCategoryDef>
-    <ModSettingsFramework.ModOptionCategoryDef ParentName="RG_ModOptionsBase">
+    <ModSettingsFramework.ModOptionCategoryDef ParentName="RCP_TraitsModOptionsBase">
         <defName>RCP_TraitsPatches</defName>
         <label>Misc. Patches</label>
         <order>0</order>
     </ModSettingsFramework.ModOptionCategoryDef>
-    <ModSettingsFramework.ModOptionCategoryDef ParentName="RG_ModOptionsBase">
+    <ModSettingsFramework.ModOptionCategoryDef ParentName="RCP_TraitsModOptionsBase">
         <defName>RCP_TraitsModPatches</defName>
         <label>Mod Patches</label>
         <order>100</order>

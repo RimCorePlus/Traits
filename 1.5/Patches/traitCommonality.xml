@@ -19,7 +19,7 @@
     <Operation Class="ModSettingsFramework.PatchOperationModOption">
         <defaultValue>false</defaultValue>
         <label>Lower commonality for negative traits</label>
-        <tooltip>Currently covers greedy, jealous, pyromaniac, and nudist</tooltip>
+        <tooltip>Currently covers greedy, jealous, pyromaniac, and nudist.</tooltip>
         <id>RCP_TraitsBadCommonality</id>
         <category>RCP_TraitsPatches</category>
         <order>1</order>
