@@ -1,24 +1,5 @@
 <Defs>
     <TraitDef>
-        <defName>RCP_Brittle</defName>
-        <commonality>0.8</commonality>
-        <degreeDatas>
-            <li>
-                <label>brittle</label>
-                <description>[PAWN_nameDef] is quick like a rabbit, and fragile like one, too.</description>
-                <statOffsets>
-                    <MoveSpeed>0.5</MoveSpeed>
-                    <IncomingDamageFactor>0.25</IncomingDamageFactor>
-                </statOffsets>
-            </li>
-        </degreeDatas>
-        <conflictingTraits>
-            <li>Tough</li>
-            <li>Wimp</li>
-            <li>SpeedOffset</li>
-        </conflictingTraits>
-    </TraitDef>
-    <TraitDef>
         <defName>RCP_DrugDealer</defName>
         <commonality>0.4</commonality>
         <degreeDatas>

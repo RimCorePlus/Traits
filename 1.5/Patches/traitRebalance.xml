@@ -1,0 +1,134 @@
+<Patch>
+    <Operation Class="ModSettingsFramework.PatchOperationModOption">
+        <defaultValue>false</defaultValue>
+        <label>Rebalance vanilla traits</label>
+        <tooltip>Replaces skillgains with forced passions and makes negative traits less negative.</tooltip>
+        <id>RCP_TraitsRebalance</id>
+        <category>RCP_TraitsPatches</category>
+        <order>1</order>
+        <operations>
+            <!--Abrasive-->
+            <li Class="PatchOperationAdd">
+                <xpath>//ThoughtDef[defName="Insulted" or defName="Slighted"]</xpath>
+                <value>
+                    <nullifyingTraits>
+                        <li>Abrasive</li>
+                    </nullifyingTraits>
+                </value>
+            </li>
+            <!--Annoying Voice-->
+            <li Class="PatchOperationAdd">
+                <xpath>//ThoughtDef[defName="AnnoyingVoice" or defName="CreepyBreathing"]</xpath>
+                <value>
+                    <nullifyingTraits>
+                        <li>AnnoyingVoice</li>
+                        <li>CreepyBreathing</li>
+                    </nullifyingTraits>
+                </value>
+            </li>
+            <!--Brawler-->
+            <li Class="PatchOperationRemove">
+                <xpath>//TraitDef[defName="Brawler"]/degreeDatas/li/skillGains/Melee</xpath>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>//TraitDef[defName="Brawler"]</xpath>
+                <value>
+                    <forcedPassions>
+                        <li>Melee</li>
+                    </forcedPassions>
+                </value>
+            </li>
+            <!--DrugDesire-->
+            <li Class="PatchOperationAdd">
+                <xpath>//TraitDef[defName="DrugDesire"]/degreeDatas/li[degree="2"]</xpath>
+                <value>
+                    <statOffsets>
+                        <MedicalTendSpeed>0.25</MedicalTendSpeed>
+                    </statOffsets>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>//TraitDef[defName="DrugDesire"]/degreeDatas/li[degree="1"]</xpath>
+                <value>
+                    <statOffsets>
+                        <MedicalTendSpeed>0.1</MedicalTendSpeed>
+                    </statOffsets>
+                </value>
+            </li>
+            <!--Gourmand-->
+            <li Class="PatchOperationRemove">
+                <xpath>//TraitDef[defName="Gourmand"]/degreeDatas/li/skillGains</xpath>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>//TraitDef[defName="Gourmand"]</xpath>
+                <value>
+                    <forcedPassions>
+                        <li>Cooking</li>
+                    </forcedPassions>
+                </value>
+            </li>
+            <!--Greedy-->
+            <li Class="PatchOperationAdd">
+                <xpath>//TraitDef[defName="Greedy"]/degreeDatas/li</xpath>
+                <value>
+                    <statFactors>
+                        <EatingSpeed>1.25</EatingSpeed>
+                        <CarryingCapacity>1.25</CarryingCapacity>
+                    </statFactors>
+                </value>
+            </li>
+            <!--Industriousness-->
+            <li Class="PatchOperationAdd">
+                <xpath>//TraitDef[defName="Industriousness"]/degreeDatas/li[degree="-2"]</xpath>
+                <value>
+                    <statFactors>
+                        <MentalBreakThreshold>0.5</MentalBreakThreshold>
+                    </statFactors>
+                </value>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>//TraitDef[defName="Industriousness"]/degreeDatas/li[degree="-1"]</xpath>
+                <value>
+                    <statFactors>
+                        <MentalBreakThreshold>0.75</MentalBreakThreshold>
+                    </statFactors>
+                </value>
+            </li>
+            <!--Pyromaniac-->
+            <li Class="PatchOperationRemove">
+                <xpath>//TraitDef[defName="Pyromaniac"]/disabledWorkTags | //TraitDef[defName="Pyromaniac"]/degreeDatas/li/randomMentalState | //TraitDef[defName="Pyromaniac"]/degreeDatas/li/randomMentalStateMtbDaysMoodCurve</xpath>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>//TraitDef[defName="Pyromaniac"]/degreeDatas/li/description/text()</xpath>
+                <value>{PAWN_nameDef} loves fire. {PAWN_pronoun} will go on fire starting sprees when {PAWN_pronoun} is upset. {PAWN_pronoun} will be happy around flames, and happier when wielding an incendiary weapon.</value>
+            </li>
+            <!--Sickly-->
+            <li Class="PatchOperationRemove">
+                <xpath>//TraitDef[defName="Immunity"]/degreeDatas/li[degree="-1"]/skillGains</xpath>
+            </li>
+            <li Class="PatchOperationAdd">
+                <xpath>//TraitDef[defName="Immunity"]/degreeDatas/li[degree="-1"]</xpath>
+                <value>
+                    <statOffsets>
+                        <MedicalTendQuality>0.25</MedicalTendQuality>
+                    </statOffsets>
+                </value>
+            </li>
+            <!--Slow Learner-->
+            <li Class="PatchOperationAdd">
+                <xpath>//TraitDef[defName="SlowLearner"]/degreeDatas/li/statFactors</xpath>
+                <value>
+                    <WorkSpeedGlobal>1.10</WorkSpeedGlobal>
+                    <GeneralLaborSpeed>1.25</GeneralLaborSpeed>
+                </value>
+            </li>
+            <!--Wimp-->
+            <li Class="PatchOperationAdd">
+                <xpath>//TraitDef[defName="Wimp"]/degreeDatas/li/statFactors</xpath>
+                <value>
+                    <MoveSpeed>1.1</MoveSpeed>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+</Patch>
