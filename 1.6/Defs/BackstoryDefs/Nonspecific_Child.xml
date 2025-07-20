@@ -22,15 +22,13 @@
         <defName>RCP_Gravship2</defName>
         <title>asteroid miner</title>
         <titleShort>miner</titleShort>
-        <description>[Pawn_nameDef]'s family owned an orbital mining fleet. When they weren't bartering with traders on the surface, they were moving between mineral-rich asteroids in orbit.\n\n[Pawn_nameDef] spent most of [PAWN_possessive] time hauling valuables to the gravship.</description>
+        <description>[PAWN_nameDef]'s family owned an orbital mining fleet. When they weren't bartering with traders on the surface, they were moving between mineral-rich asteroids in orbit.\n\n[PAWN_nameDef] spent most of [PAWN_possessive] time hauling valuables to the gravship.</description>
         <slot>Childhood</slot>
         <requiredWorkTags>
             <li>ManualDumb</li>
         </requiredWorkTags>
         <skillGains>
-            <Animals>-1</Animals>
-            <Mining>6</Mining>
-            <Plants>1</Plants>
+            <Mining>5</Mining>
         </skillGains>
         <spawnCategories>
             <li>Offworld</li>
