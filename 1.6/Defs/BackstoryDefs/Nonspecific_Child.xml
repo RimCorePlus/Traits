@@ -1,0 +1,139 @@
+<Defs>
+    <BackstoryDef>
+        <defName>RCP_Gravship1</defName>
+        <title>gravship colonist</title>
+        <titleShort>colonist</titleShort>
+        <description>[PAWN_nameDef] was born and raised on a gravship. [PAWN_pronoun] received training to repair and maintain the ship's systems.\n\n[PAWN_nameDef] didn't interact with anyone besides [PAWN_possessive] parents and the captain.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Construction>3</Construction>
+            <Crafting>2</Crafting>
+            <Social>-2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>Pirate</li>
+            <li>ImperialCommon</li>
+            <li>ImperialFighter</li>
+        </spawnCategories>
+    </BackstoryDef>
+    <BackstoryDef>
+        <defName>RCP_Gravship2</defName>
+        <title>asteroid miner</title>
+        <titleShort>miner</titleShort>
+        <description>[Pawn_nameDef]'s family owned an orbital mining fleet. When they weren't bartering with traders on the surface, they were moving between mineral-rich asteroids in orbit.\n\n[Pawn_nameDef] spent most of [PAWN_possessive] time hauling valuables to the gravship.</description>
+        <slot>Childhood</slot>
+        <requiredWorkTags>
+            <li>ManualDumb</li>
+        </requiredWorkTags>
+        <skillGains>
+            <Animals>-1</Animals>
+            <Mining>6</Mining>
+            <Plants>1</Plants>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>ImperialCommon</li>
+            <li>ImperialFighter</li>
+        </spawnCategories>
+    </BackstoryDef>
+    <BackstoryDef>
+        <defName>RCP_Gravship3</defName>
+        <title>orbital pirate</title>
+        <titleShort>pirate</titleShort>
+        <description>[PAWN_nameDef] was raised by an orbital pirate gang. [PAWN_pronoun] was used as bait, pretending to be injured long enough for [PAWN_possessive] crew to ambush anyone who responded to the distress calls.\n\n[PAWN_nameDef] took joy in watching them die.</description>
+        <slot>Childhood</slot>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <skillGains>
+            <Melee>3</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>Pirate</li>
+        </spawnCategories>
+        <forcedTraits>
+            <Psychopath />
+        </forcedTraits>
+    </BackstoryDef>
+    <BackstoryDef>
+        <defName>RCP_Gravship4</defName>
+        <title>medical student</title>
+        <titleShort>student</titleShort>
+        <description>[PAWN_nameDef] grew up on a satellite that offered medical services and ship repairs. [PAWN_pronoun] learned how to perform first aid and helped the surgeon with minor operations.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Medicine>3</Medicine>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>ImperialCommon</li>
+            <li>ImperialFighter</li>
+        </spawnCategories>
+    </BackstoryDef>
+    <BackstoryDef>
+        <defName>RCP_Gravship5</defName>
+        <title>hydroponics farmer</title>
+        <titleShort>farmer</titleShort>
+        <description>[PAWN_nameDef] was born and raised on a civilian garden vessel. [PAWN_possessive] formative years were spent tending to crops and learning to maintain the hydroponics system.\n\nThe ship's crew was small and lacked combat experience, so [PAWN_nameDef] had to help defend against raids.</description>
+        <slot>Childhood</slot>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <skillGains>
+            <Crafting>1</Crafting>
+            <Plants>3</Plants>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>Pirate</li>
+            <li>ImperialCommon</li>
+            <li>ImperialFighter</li>
+        </spawnCategories>
+    </BackstoryDef>
+    <BackstoryDef>
+        <defName>RCP_Gravship6</defName>
+        <title>lone survivor</title>
+        <titleShort>survivor</titleShort>
+        <description>[PAWN_nameDef] was the only survivor of a nasty plague. [PAWN_pronoun] drifted alone aboard a derelict gravship for months, living off of the dead crew's rations.\n\n[PAWN_nameDef]'s sculptures kept the loneliness at bay until an orbital trading ship found [PAWN_objective].</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>Pirate</li>
+            <li>ImperialCommon</li>
+            <li>ImperialFighter</li>
+        </spawnCategories>
+    </BackstoryDef>
+    <BackstoryDef>
+        <defName>RCP_Gravship7</defName>
+        <title>galley porter</title>
+        <titleShort>porter</titleShort>
+        <description>[PAWN_nameDef] always dreamed of being a chef. As soon as [PAWN_pronoun] was old enough to work, [PAWN_pronoun] took a job cleaning dishes and prepping vegetables in the galley.\n\n[PAWN_nameDef] spent [PAWN_possessive] free time bantering with the other staff.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Cooking>3</Cooking>
+            <Social>2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Offworld</li>
+            <li>Outlander</li>
+            <li>Pirate</li>
+            <li>ImperialCommon</li>
+            <li>ImperialFighter</li>
+        </spawnCategories>
+    </BackstoryDef>
+</Defs>

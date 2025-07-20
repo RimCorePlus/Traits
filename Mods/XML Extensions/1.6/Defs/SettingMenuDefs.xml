@@ -1,0 +1,239 @@
+<Defs>
+    <XmlExtensions.SettingsMenuDef>
+        <modId>RCP.Traits</modId>
+        <label>(RCP) Backstories and Traits</label>
+        <settings>
+            <li Class="XmlExtensions.Setting.TabView">
+                <tabs>
+                    <li>
+                        <label>Backstories</label>
+                        <settings>
+                            <li Class="XmlExtensions.Setting.Text">
+                                <padAbove>4</padAbove>
+                                <padBelow>4</padBelow>
+                                <anchor>Middle</anchor>
+                                <text>Warning! Disabling backstories mid-save will break existing pawns with that backstory.</text>
+                                <tKey>RCPBackstoryWarning</tKey>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Checkbox">
+                                <key>RCP_Gravship1</key>
+                                <label>Gravship colonist</label>
+                                <defaultValue>false</defaultValue>
+                            </li>
+                            <li Class="XmlExtensions.Setting.ToggleableSettings">
+                                <key>RCP_Gravship1</key>
+                                <caseTrue>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <text>Changes are applied on restart.</text>
+                                    </li>
+                                </caseTrue>
+                                <caseFalse>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padLeft>16</padLeft>
+                                        <xpath>//BackstoryDef[defName="RCP_Gravship1"]/slot/text()</xpath>
+                                    </li>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <xpath>//BackstoryDef[defName="RCP_Gravship1"]/description/text()</xpath>
+                                    </li>
+                                </caseFalse>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Checkbox">
+                                <key>RCP_Gravship2</key>
+                                <label>Asteroid miner</label>
+                                <defaultValue>false</defaultValue>
+                            </li>
+                            <li Class="XmlExtensions.Setting.ToggleableSettings">
+                                <key>RCP_Gravship2</key>
+                                <caseTrue>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <text>Changes are applied on restart.</text>
+                                    </li>
+                                </caseTrue>
+                                <caseFalse>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padLeft>16</padLeft>
+                                        <xpath>//BackstoryDef[defName="RCP_Gravship2"]/slot/text()</xpath>
+                                    </li>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <xpath>//BackstoryDef[defName="RCP_Gravship2"]/description/text()</xpath>
+                                    </li>
+                                </caseFalse>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Checkbox">
+                                <key>RCP_Gravship3</key>
+                                <label>Orbital pirate</label>
+                                <defaultValue>false</defaultValue>
+                            </li>
+                            <li Class="XmlExtensions.Setting.ToggleableSettings">
+                                <key>RCP_Gravship3</key>
+                                <caseTrue>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <text>Changes are applied on restart.</text>
+                                    </li>
+                                </caseTrue>
+                                <caseFalse>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padLeft>16</padLeft>
+                                        <xpath>//BackstoryDef[defName="RCP_Gravship3"]/slot/text()</xpath>
+                                    </li>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <xpath>//BackstoryDef[defName="RCP_Gravship3"]/description/text()</xpath>
+                                    </li>
+                                </caseFalse>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Checkbox">
+                                <key>RCP_Gravship4</key>
+                                <label>Medical student</label>
+                                <defaultValue>false</defaultValue>
+                            </li>
+                            <li Class="XmlExtensions.Setting.ToggleableSettings">
+                                <key>RCP_Gravship4</key>
+                                <caseTrue>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <text>Changes are applied on restart.</text>
+                                    </li>
+                                </caseTrue>
+                                <caseFalse>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padLeft>16</padLeft>
+                                        <xpath>//BackstoryDef[defName="RCP_Gravship4"]/slot/text()</xpath>
+                                    </li>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <xpath>//BackstoryDef[defName="RCP_Gravship4"]/description/text()</xpath>
+                                    </li>
+                                </caseFalse>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Checkbox">
+                                <key>RCP_Gravship5</key>
+                                <label>Hydroponics farmer</label>
+                                <defaultValue>false</defaultValue>
+                            </li>
+                            <li Class="XmlExtensions.Setting.ToggleableSettings">
+                                <key>RCP_Gravship5</key>
+                                <caseTrue>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <text>Changes are applied on restart.</text>
+                                    </li>
+                                </caseTrue>
+                                <caseFalse>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padLeft>16</padLeft>
+                                        <xpath>//BackstoryDef[defName="RCP_Gravship5"]/slot/text()</xpath>
+                                    </li>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <xpath>//BackstoryDef[defName="RCP_Gravship5"]/description/text()</xpath>
+                                    </li>
+                                </caseFalse>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Checkbox">
+                                <key>RCP_Gravship6</key>
+                                <label>Lone survivor</label>
+                                <defaultValue>false</defaultValue>
+                            </li>
+                            <li Class="XmlExtensions.Setting.ToggleableSettings">
+                                <key>RCP_Gravship6</key>
+                                <caseTrue>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <text>Changes are applied on restart.</text>
+                                    </li>
+                                </caseTrue>
+                                <caseFalse>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padLeft>16</padLeft>
+                                        <xpath>//BackstoryDef[defName="RCP_Gravship6"]/slot/text()</xpath>
+                                    </li>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <xpath>//BackstoryDef[defName="RCP_Gravship6"]/description/text()</xpath>
+                                    </li>
+                                </caseFalse>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Checkbox">
+                                <key>RCP_Gravship7</key>
+                                <label>Galley porter</label>
+                                <defaultValue>false</defaultValue>
+                            </li>
+                            <li Class="XmlExtensions.Setting.ToggleableSettings">
+                                <key>RCP_Gravship7</key>
+                                <caseTrue>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <text>Changes are applied on restart.</text>
+                                    </li>
+                                </caseTrue>
+                                <caseFalse>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padLeft>16</padLeft>
+                                        <xpath>//BackstoryDef[defName="RCP_Gravship7"]/slot/text()</xpath>
+                                    </li>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <xpath>//BackstoryDef[defName="RCP_Gravship7"]/description/text()</xpath>
+                                    </li>
+                                </caseFalse>
+                            </li>
+                        </settings>
+                    </li>
+                    <li>
+                        <label>Traits</label>
+                        <settings>
+                            <li Class="XmlExtensions.Setting.Text">
+                                <padAbove>4</padAbove>
+                                <padBelow>4</padBelow>
+                                <anchor>Middle</anchor>
+                                <text>Disabling stops new pawns from getting these traits. Existing pawns are not affected.</text>
+                                <tKey>RCPTraitWarning</tKey>
+                            </li>
+                        </settings>
+                    </li>
+                </tabs>
+            </li>
+        </settings>
+    </XmlExtensions.SettingsMenuDef>
+</Defs>

@@ -1,0 +1,108 @@
+<Patch>
+    <Operation Class="XmlExtensions.OptionalPatch">
+        <modId>RCP.Traits</modId>
+        <key>RCP_Gravship1</key>
+        <defaultValue>false</defaultValue>
+        <caseTrue>
+            <Operation Class="PatchOperationRemove">
+                <xpath>//BackstoryDef[defName="RCP_Gravship1"] | //li[key="RCP_Gravship1"]/caseTrue | //li[key="RCP_Gravship1"]/caseFalse/li[1] | //li[key="RCP_Gravship1"]/caseFalse/li/xpath</xpath>
+            </Operation>
+            <Operation Class="PatchOperationAdd">
+                <xpath>//li[key="RCP_Gravship1"]/caseFalse/li</xpath>
+                <value>
+                    <text>Changes are applied on restart.</text>
+                </value>
+            </Operation>
+        </caseTrue>
+    </Operation>
+    <Operation Class="XmlExtensions.OptionalPatch">
+        <modId>RCP.Traits</modId>
+        <key>RCP_Gravship2</key>
+        <defaultValue>false</defaultValue>
+        <caseTrue>
+            <Operation Class="PatchOperationRemove">
+                <xpath>//BackstoryDef[defName="RCP_Gravship2"] | //li[key="RCP_Gravship2"]/caseTrue | //li[key="RCP_Gravship2"]/caseFalse/li[1] | //li[key="RCP_Gravship2"]/caseFalse/li/xpath</xpath>
+            </Operation>
+        </caseTrue>
+    </Operation>
+    <Operation Class="XmlExtensions.OptionalPatch">
+        <modId>RCP.Traits</modId>
+        <key>RCP_Gravship3</key>
+        <defaultValue>false</defaultValue>
+        <caseTrue>
+            <Operation Class="PatchOperationRemove">
+                <xpath>//BackstoryDef[defName="RCP_Gravship3"] | //li[key="RCP_Gravship3"]/caseTrue | //li[key="RCP_Gravship3"]/caseFalse/li[1] | //li[key="RCP_Gravship3"]/caseFalse/li/xpath</xpath>
+            </Operation>
+            <Operation Class="PatchOperationAdd">
+                <xpath>//li[key="RCP_Gravship3"]/caseFalse/li</xpath>
+                <value>
+                    <text>Changes are applied on restart.</text>
+                </value>
+            </Operation>
+        </caseTrue>
+    </Operation>
+    <Operation Class="XmlExtensions.OptionalPatch">
+        <modId>RCP.Traits</modId>
+        <key>RCP_Gravship4</key>
+        <defaultValue>false</defaultValue>
+        <caseTrue>
+            <Operation Class="PatchOperationRemove">
+                <xpath>//BackstoryDef[defName="RCP_Gravship4"] | //li[key="RCP_Gravship4"]/caseTrue | //li[key="RCP_Gravship4"]/caseFalse/li[1] | //li[key="RCP_Gravship4"]/caseFalse/li/xpath</xpath>
+            </Operation>
+            <Operation Class="PatchOperationAdd">
+                <xpath>//li[key="RCP_Gravship4"]/caseFalse/li</xpath>
+                <value>
+                    <text>Changes are applied on restart.</text>
+                </value>
+            </Operation>
+        </caseTrue>
+    </Operation>
+    <Operation Class="XmlExtensions.OptionalPatch">
+        <modId>RCP.Traits</modId>
+        <key>RCP_Gravship5</key>
+        <defaultValue>false</defaultValue>
+        <caseTrue>
+            <Operation Class="PatchOperationRemove">
+                <xpath>//BackstoryDef[defName="RCP_Gravship5"] | //li[key="RCP_Gravship5"]/caseTrue | //li[key="RCP_Gravship5"]/caseFalse/li[1] | //li[key="RCP_Gravship5"]/caseFalse/li/xpath</xpath>
+            </Operation>
+            <Operation Class="PatchOperationAdd">
+                <xpath>//li[key="RCP_Gravship5"]/caseFalse/li</xpath>
+                <value>
+                    <text>Changes are applied on restart.</text>
+                </value>
+            </Operation>
+        </caseTrue>
+    </Operation>
+    <Operation Class="XmlExtensions.OptionalPatch">
+        <modId>RCP.Traits</modId>
+        <key>RCP_Gravship6</key>
+        <defaultValue>false</defaultValue>
+        <caseTrue>
+            <Operation Class="PatchOperationRemove">
+                <xpath>//BackstoryDef[defName="RCP_Gravship6"] | //li[key="RCP_Gravship6"]/caseTrue | //li[key="RCP_Gravship6"]/caseFalse/li[1] | //li[key="RCP_Gravship6"]/caseFalse/li/xpath</xpath>
+            </Operation>
+            <Operation Class="PatchOperationAdd">
+                <xpath>//li[key="RCP_Gravship6"]/caseFalse/li</xpath>
+                <value>
+                    <text>Changes are applied on restart.</text>
+                </value>
+            </Operation>
+        </caseTrue>
+    </Operation>
+    <Operation Class="XmlExtensions.OptionalPatch">
+        <modId>RCP.Traits</modId>
+        <key>RCP_Gravship7</key>
+        <defaultValue>false</defaultValue>
+        <caseTrue>
+            <Operation Class="PatchOperationRemove">
+                <xpath>//BackstoryDef[defName="RCP_Gravship7"] | //li[key="RCP_Gravship7"]/caseTrue | //li[key="RCP_Gravship7"]/caseFalse/li[1] | //li[key="RCP_Gravship7"]/caseFalse/li/xpath</xpath>
+            </Operation>
+            <Operation Class="PatchOperationAdd">
+                <xpath>//li[key="RCP_Gravship7"]/caseFalse/li</xpath>
+                <value>
+                    <text>Changes are applied on restart.</text>
+                </value>
+            </Operation>
+        </caseTrue>
+    </Operation>
+</Patch>
