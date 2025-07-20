@@ -19,6 +19,7 @@
     </modDependenciesByVersion>
     <loadAfter>
         <li>ceteam.combatextended</li>
+		<li>imranfish.xmlextensions</li>
         <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
     </loadAfter>
 </ModMetaData>

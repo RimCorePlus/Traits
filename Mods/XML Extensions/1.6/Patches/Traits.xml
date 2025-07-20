@@ -1,0 +1,122 @@
+<Patch>
+    <Operation Class="XmlExtensions.OptionalPatch">
+        <modId>RCP.Traits</modId>
+        <key>RCP_DrugDealer</key>
+        <defaultValue>false</defaultValue>
+        <caseTrue>
+            <Operation Class="PatchOperationReplace">
+                <xpath>//TraitDef[defName="RCP_DrugDealer"]/commonality/text()</xpath>
+                <value>0</value>
+            </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>//li[@Class="XmlExtensions.Setting.ToggleableSettings" and key="RCP_DrugDealer"]/caseFalse/li/xpath</xpath>
+                <value>
+                    <text>Changes are applied on restart.</text>
+                </value>
+            </Operation>
+            <Operation Class="PatchOperationRemove">
+                <xpath>//li[@Class="XmlExtensions.Setting.ToggleableSettings" and key="RCP_DrugDealer"]/caseTrue</xpath>
+            </Operation>
+        </caseTrue>
+    </Operation>
+    <Operation Class="XmlExtensions.OptionalPatch">
+        <modId>RCP.Traits</modId>
+        <key>RCP_Eloquent</key>
+        <defaultValue>false</defaultValue>
+        <caseTrue>
+            <Operation Class="PatchOperationReplace">
+                <xpath>//TraitDef[defName="RCP_Eloquent"]/commonality/text()</xpath>
+                <value>0</value>
+            </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>//li[@Class="XmlExtensions.Setting.ToggleableSettings" and key="RCP_Eloquent"]/caseFalse/li/xpath</xpath>
+                <value>
+                    <text>Changes are applied on restart.</text>
+                </value>
+            </Operation>
+            <Operation Class="PatchOperationRemove">
+                <xpath>//li[@Class="XmlExtensions.Setting.ToggleableSettings" and key="RCP_Eloquent"]/caseTrue</xpath>
+            </Operation>
+        </caseTrue>
+    </Operation>
+    <Operation Class="XmlExtensions.OptionalPatch">
+        <modId>RCP.Traits</modId>
+        <key>RCP_GreenThumb</key>
+        <defaultValue>false</defaultValue>
+        <caseTrue>
+            <Operation Class="PatchOperationReplace">
+                <xpath>//TraitDef[defName="RCP_GreenThumb"]/commonality/text()</xpath>
+                <value>0</value>
+            </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>//li[@Class="XmlExtensions.Setting.ToggleableSettings" and key="RCP_GreenThumb"]/caseFalse/li/xpath</xpath>
+                <value>
+                    <text>Changes are applied on restart.</text>
+                </value>
+            </Operation>
+            <Operation Class="PatchOperationRemove">
+                <xpath>//li[@Class="XmlExtensions.Setting.ToggleableSettings" and key="RCP_GreenThumb"]/caseTrue</xpath>
+            </Operation>
+        </caseTrue>
+    </Operation>
+    <Operation Class="XmlExtensions.OptionalPatch">
+        <modId>RCP.Traits</modId>
+        <key>RCP_Laborer</key>
+        <defaultValue>false</defaultValue>
+        <caseTrue>
+            <Operation Class="PatchOperationReplace">
+                <xpath>//TraitDef[defName="RCP_Laborer"]/commonality/text()</xpath>
+                <value>0</value>
+            </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>//li[@Class="XmlExtensions.Setting.ToggleableSettings" and key="RCP_Laborer"]/caseFalse/li/xpath</xpath>
+                <value>
+                    <text>Changes are applied on restart.</text>
+                </value>
+            </Operation>
+            <Operation Class="PatchOperationRemove">
+                <xpath>//li[@Class="XmlExtensions.Setting.ToggleableSettings" and key="RCP_Laborer"]/caseTrue</xpath>
+            </Operation>
+        </caseTrue>
+    </Operation>
+    <Operation Class="XmlExtensions.OptionalPatch">
+        <modId>RCP.Traits</modId>
+        <key>RCP_AcePilot</key>
+        <defaultValue>false</defaultValue>
+        <caseTrue>
+            <Operation Class="PatchOperationReplace">
+                <xpath>//TraitDef[defName="RCP_AcePilot"]/commonality/text()</xpath>
+                <value>0</value>
+            </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>//li[@Class="XmlExtensions.Setting.ToggleableSettings" and key="RCP_AcePilot"]/caseFalse/li/xpath</xpath>
+                <value>
+                    <text>Changes are applied on restart.</text>
+                </value>
+            </Operation>
+            <Operation Class="PatchOperationRemove">
+                <xpath>//li[@Class="XmlExtensions.Setting.ToggleableSettings" and key="RCP_AcePilot"]/caseTrue</xpath>
+            </Operation>
+        </caseTrue>
+    </Operation>
+    <Operation Class="XmlExtensions.OptionalPatch">
+        <modId>RCP.Traits</modId>
+        <key>RCP_Fisherman</key>
+        <defaultValue>false</defaultValue>
+        <caseTrue>
+            <Operation Class="PatchOperationReplace">
+                <xpath>//TraitDef[defName="RCP_Fisherman"]/commonality/text()</xpath>
+                <value>0</value>
+            </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>//li[@Class="XmlExtensions.Setting.ToggleableSettings" and key="RCP_Fisherman"]/caseFalse/li/xpath</xpath>
+                <value>
+                    <text>Changes are applied on restart.</text>
+                </value>
+            </Operation>
+            <Operation Class="PatchOperationRemove">
+                <xpath>//li[@Class="XmlExtensions.Setting.ToggleableSettings" and key="RCP_Fisherman"]/caseTrue</xpath>
+            </Operation>
+        </caseTrue>
+    </Operation>
+</Patch>

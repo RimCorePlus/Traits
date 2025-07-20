@@ -230,6 +230,150 @@
                                 <text>Disabling stops new pawns from getting these traits. Existing pawns are not affected.</text>
                                 <tKey>RCPTraitWarning</tKey>
                             </li>
+                            <li Class="XmlExtensions.Setting.Checkbox">
+                                <key>RCP_AcePilot</key>
+                                <label>Ace pilot</label>
+                                <defaultValue>false</defaultValue>
+                            </li>
+                            <li Class="XmlExtensions.Setting.ToggleableSettings">
+                                <key>RCP_AcePilot</key>
+                                <caseTrue>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <text>Changes are applied on restart.</text>
+                                    </li>
+                                </caseTrue>
+                                <caseFalse>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <xpath>//TraitDef[defName="RCP_AcePilot"]/degreeDatas/li/description/text()</xpath>
+                                    </li>
+                                </caseFalse>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Checkbox">
+                                <key>RCP_Fisherman</key>
+                                <label>Angler</label>
+                                <defaultValue>false</defaultValue>
+                            </li>
+                            <li Class="XmlExtensions.Setting.ToggleableSettings">
+                                <key>RCP_Fisherman</key>
+                                <caseTrue>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <text>Changes are applied on restart.</text>
+                                    </li>
+                                </caseTrue>
+                                <caseFalse>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <xpath>//TraitDef[defName="RCP_Fisherman"]/degreeDatas/li/description/text()</xpath>
+                                    </li>
+                                </caseFalse>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Checkbox">
+                                <key>RCP_DrugDealer</key>
+                                <label>Drug dealer</label>
+                                <defaultValue>false</defaultValue>
+                            </li>
+                            <li Class="XmlExtensions.Setting.ToggleableSettings">
+                                <key>RCP_DrugDealer</key>
+                                <caseTrue>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <text>Changes are applied on restart.</text>
+                                    </li>
+                                </caseTrue>
+                                <caseFalse>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <xpath>//TraitDef[defName="RCP_DrugDealer"]/degreeDatas/li/description/text()</xpath>
+                                    </li>
+                                </caseFalse>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Checkbox">
+                                <key>RCP_Eloquent</key>
+                                <label>Eloquent</label>
+                                <defaultValue>false</defaultValue>
+                            </li>
+                            <li Class="XmlExtensions.Setting.ToggleableSettings">
+                                <key>RCP_Eloquent</key>
+                                <caseTrue>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <text>Changes are applied on restart.</text>
+                                    </li>
+                                </caseTrue>
+                                <caseFalse>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <xpath>//TraitDef[defName="RCP_Eloquent"]/degreeDatas/li/description/text()</xpath>
+                                    </li>
+                                </caseFalse>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Checkbox">
+                                <key>RCP_GreenThumb</key>
+                                <label>Green thumb</label>
+                                <defaultValue>false</defaultValue>
+                            </li>
+                            <li Class="XmlExtensions.Setting.ToggleableSettings">
+                                <key>RCP_GreenThumb</key>
+                                <caseTrue>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <text>Changes are applied on restart.</text>
+                                    </li>
+                                </caseTrue>
+                                <caseFalse>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <xpath>//TraitDef[defName="RCP_GreenThumb"]/degreeDatas/li/description/text()</xpath>
+                                    </li>
+                                </caseFalse>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Checkbox">
+                                <key>RCP_Laborer</key>
+                                <label>Laborer</label>
+                                <defaultValue>false</defaultValue>
+                            </li>
+                            <li Class="XmlExtensions.Setting.ToggleableSettings">
+                                <key>RCP_Laborer</key>
+                                <caseTrue>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <text>Changes are applied on restart.</text>
+                                    </li>
+                                </caseTrue>
+                                <caseFalse>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <xpath>//TraitDef[defName="RCP_Laborer"]/degreeDatas/li/description/text()</xpath>
+                                    </li>
+                                </caseFalse>
+                            </li>
                         </settings>
                     </li>
                 </tabs>
