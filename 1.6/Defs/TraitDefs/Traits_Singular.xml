@@ -5,7 +5,7 @@
         <degreeDatas>
             <li>
                 <label>drug dealer</label>
-                <description>[PAWN_nameDef] knows the ins and outs of the underground market. [PAWN_pronoun] has a knack for cutting deals on illicit substances and can synthesize drugs with remarkable efficiency.</description>
+                <description>[PAWN_nameDef] has a knack for cutting deals on illicit substances and can synthesize drugs with remarkable efficiency.</description>
                 <statOffsets>
                     <DrugCookingSpeed>0.25</DrugCookingSpeed>
                     <DrugSynthesisSpeed>0.25</DrugSynthesisSpeed>
@@ -20,15 +20,13 @@
                 </disallowedMentalStates>
             </li>
         </degreeDatas>
-        <conflictingTraits>
-            <li>DrugDesire</li>
-        </conflictingTraits>
         <requiredWorkTags>
             <li>Social</li>
             <li>Intellectual</li>
             <li>ManualSkilled</li>
         </requiredWorkTags>
         <conflictingTraits>
+            <li>DrugDesire</li>
             <li>RCP_AcePilot</li>
             <li>RCP_Eloquent</li>
             <li>RCP_Fisherman</li>
@@ -49,6 +47,9 @@
                     <TradePriceImprovement>0.5</TradePriceImprovement>
                     <ConversionPower MayRequire="Ludeon.Rimworld.Ideology">0.5</ConversionPower>
                 </statOffsets>
+                <possessions>
+                    <Apparel_BowlerHat>1</Apparel_BowlerHat>
+                </possessions>
             </li>
         </degreeDatas>
         <requiredWorkTags>
@@ -77,6 +78,9 @@
                     <PlantHarvestYield>0.1</PlantHarvestYield>
                 </statOffsets>
             </li>
+                <possessions>
+                    <PlantPot>1</PlantPot>
+                </possessions>
         </degreeDatas>
         <requiredWorkTags>
             <li>PlantWork</li>
@@ -134,6 +138,9 @@
                 <statOffsets>
                     <PilotingAbility>0.5</PilotingAbility>
                 </statOffsets>
+                <possessions>
+                    <PilotAssistant>1</PilotAssistant>
+                </possessions>
             </li>
         </degreeDatas>
         <requiredWorkTags>
@@ -156,11 +163,14 @@
         <degreeDatas>
             <li>
                 <label>angler</label>
-                <description>[PAWN_nameDef] is a fish magnet.</description>
+                <description>[PAWN_nameDef] loves casting lines. [PAWN_pronoun] catches fish faster than everyone else.</description>
                 <statOffsets>
                     <FishingSpeed>0.25</FishingSpeed>
                     <FishingYield>0.1</FishingYield>
                 </statOffsets>
+                <possessions>
+                    <Fish_Salmon>5~10</Fish_Salmon>
+                </possessions>
             </li>
         </degreeDatas>
         <requiredWorkTags>
