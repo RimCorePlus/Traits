@@ -77,10 +77,10 @@
                     <PlantWorkSpeed>0.25</PlantWorkSpeed>
                     <PlantHarvestYield>0.1</PlantHarvestYield>
                 </statOffsets>
-            </li>
                 <possessions>
                     <PlantPot>1</PlantPot>
                 </possessions>
+            </li>
         </degreeDatas>
         <requiredWorkTags>
             <li>PlantWork</li>

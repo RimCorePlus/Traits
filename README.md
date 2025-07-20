@@ -15,7 +15,8 @@
 ![](About/Preview.png)\
 [![GPLv3][badge-license]](https://www.gnu.org/licenses/gpl-3.0) ![Supports Odyssey][badge-dlc-odyssey]
 
-Use [XML Extensions](https://steamcommunity.com/sharedfiles/filedetails/?id=2574315206) to disable all backstories and traits.
+> [!IMPORTANT]
+> Use [XML Extensions](https://steamcommunity.com/sharedfiles/filedetails/?id=2574315206) to disable unwanted backstories and traits.
 
 ## Backstories
 | defName | title | titleShort | description | slot | workDisables | requiredWorkTags | skillgains | spawnCategories | forcedTraits |
