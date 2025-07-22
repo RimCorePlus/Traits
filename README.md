@@ -16,7 +16,8 @@
 [![GPLv3][badge-license]](https://www.gnu.org/licenses/gpl-3.0) ![Supports Odyssey][badge-dlc-odyssey]
 
 > [!IMPORTANT]
-> Use [XML Extensions](https://steamcommunity.com/sharedfiles/filedetails/?id=2574315206) to disable unwanted backstories and traits.
+> Integrated with [Trait and Backstory Icons](https://steamcommunity.com/sharedfiles/filedetails/?id=2873494547) (optional).\
+> Integrated with [XML Extensions](https://steamcommunity.com/sharedfiles/filedetails/?id=2574315206) to disable unwanted backstories and traits (optional).
 
 ## Backstories
 | defName | title | titleShort | description | slot | workDisables | requiredWorkTags | skillgains | spawnCategories | forcedTraits |
@@ -43,3 +44,5 @@ Traits commonalities are low because they are intended to be rare and unobtrusiv
 
 ## Legal
 Portions of the materials used to create this mod are trademarks and/or copyrighted works of Ludeon Studios Inc. All rights reserved by Ludeon. This mod is not official and is not endorsed by Ludeon.
+
+Icons by [Delapouite](https://delapouite.com/) and [Lorc](https://lorcblog.blogspot.com/). CC BY 3.0 [Game-icons.net](https://game-icons.net/)
