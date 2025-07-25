@@ -1,7 +1,7 @@
 <Defs>
     <TraitDef>
         <defName>RCP_DrugDealer</defName>
-        <commonality>0.4</commonality>
+        <commonality>0.6</commonality>
         <degreeDatas>
             <li>
                 <label>drug dealer</label>
@@ -36,7 +36,7 @@
     </TraitDef>
     <TraitDef>
         <defName>RCP_Eloquent</defName>
-        <commonality>0.4</commonality>
+        <commonality>0.6</commonality>
         <degreeDatas>
             <li>
                 <label>eloquent</label>
@@ -68,7 +68,7 @@
     </TraitDef>
     <TraitDef>
         <defName>RCP_GreenThumb</defName>
-        <commonality>0.4</commonality>
+        <commonality>0.6</commonality>
         <degreeDatas>
             <li>
                 <label>green thumb</label>
@@ -98,7 +98,7 @@
     </TraitDef>
     <TraitDef>
         <defName>RCP_Laborer</defName>
-        <commonality>0.1</commonality>
+        <commonality>0.3</commonality>
         <degreeDatas>
             <li>
                 <label>laborer</label>
@@ -130,7 +130,7 @@
     </TraitDef>
     <TraitDef MayRequire="Ludeon.RimWorld.Odyssey">
         <defName>RCP_AcePilot</defName>
-        <commonality>0.4</commonality>
+        <commonality>0.6</commonality>
         <degreeDatas>
             <li>
                 <label>ace pilot</label>
@@ -159,7 +159,7 @@
     </TraitDef>
     <TraitDef MayRequire="Ludeon.RimWorld.Odyssey">
         <defName>RCP_Fisherman</defName>
-        <commonality>0.4</commonality>
+        <commonality>0.6</commonality>
         <degreeDatas>
             <li>
                 <label>angler</label>
