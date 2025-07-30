@@ -1,19 +1,11 @@
-<!--[![GPLv3][badge-license]](https://www.gnu.org/licenses/gpl-3.0) -->
-[badge-license]: https://img.shields.io/badge/License-GPLv3-lightgray
-<!--![Supports Royalty][badge-dlc-royalty] supports Royalty DLC-->
-[badge-dlc-royalty]: https://img.shields.io/badge/DLC-Royalty-gold
-<!--![Supports Ideology][badge-dlc-ideology] supports Ideology DLC-->
-[badge-dlc-ideology]: https://img.shields.io/badge/DLC-Ideology-indianred
-<!--![Supports Biotech][badge-dlc-biotech] supports Biotech DLC-->
-[badge-dlc-biotech]: https://img.shields.io/badge/DLC-Biotech-mediumturquoise
-<!--![Supports Anomaly][badge-dlc-anomaly] supports Anomaly DLC-->
-[badge-dlc-anomaly]: https://img.shields.io/badge/DLC-Anomaly-darkseagreen
-<!--![Supports Odyssey][badge-dlc-odyssey] supports Odyssey DLC-->
-[badge-dlc-odyssey]: https://img.shields.io/badge/DLC-Odyssey-mediumpurple
+<!-- ![requirements](https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Fraw.githubusercontent.com%2FRimCorePlus%2FTraits%2Frefs%2Fheads%2Fmain%2FAbout%2FAbout.xml&query=%2F%2FdisplayName&style=for-the-badge&label=Requires&color=mediumpurple) -->
+[requirements]: https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Fraw.githubusercontent.com%2FRimCorePlus%2FTraits%2Frefs%2Fheads%2Fmain%2FAbout%2FAbout.xml&query=%2F%2FdisplayName&style=for-the-badge&label=Requires&color=mediumpurple
+<!-- [![GPLv3][badge-license]](https://www.gnu.org/licenses/gpl-3.0) -->
+[badge-license]: https://img.shields.io/badge/License-GPLv3-lightgray?style=for-the-badge
 
 # [RCP] Backstories and Traits
 ![](About/Preview.png)\
-[![GPLv3][badge-license]](https://www.gnu.org/licenses/gpl-3.0) ![Supports Odyssey][badge-dlc-odyssey]
+[![GPLv3][badge-license]](https://www.gnu.org/licenses/gpl-3.0)
 
 > [!IMPORTANT]
 > Integrated with [Trait and Backstory Icons](https://steamcommunity.com/sharedfiles/filedetails/?id=2873494547) (optional).\
@@ -35,8 +27,8 @@ Traits commonalities are low because they are intended to be rare and unobtrusiv
 
 | defName | label | description | statFactors | statOffsets | forcedPassions | disabledWorkTags | possessions | commonality | prerequisites |
 |---|---|---|---|---|---|---|---|---|---|
-| RCP_AcePilot | ace pilot | [PAWN_nameDef]'s heart yearns for the stars. |  | PilotingAbility: +50% | Intellectual |  | PilotAssistant | 0.4 | ![RimWorld Odyssey][badge-dlc-odyssey] |
-| RCP_Fisherman | angler | [PAWN_nameDef] loves casting lines. [PAWN_pronoun] catches fish faster than everyone else. |  | FishingSpeed: +25%<br>FishingYield: +10% | Animals |  | Fish_Catfish: 5~10 | 0.4 | ![RimWorld Odyssey][badge-dlc-odyssey] |
+| RCP_AcePilot | ace pilot | [PAWN_nameDef]'s heart yearns for the stars. |  | PilotingAbility: +50% | Intellectual |  | PilotAssistant | 0.4 |![RimWorld Odyssey][badge-dlc-odyssey] |
+| RCP_Fisherman | angler | [PAWN_nameDef] loves casting lines. [PAWN_pronoun] catches fish faster than everyone else. |  | FishingSpeed: +25%<br>FishingYield: +10% | Animals |  | Fish_Catfish: 5~10 | 0.4 |![RimWorld Odyssey][badge-dlc-odyssey] |
 | RCP_DrugDealer | drug dealer | [PAWN_nameDef] has a knack for cutting deals on illicit substances and can synthesize drugs with remarkable efficiency. |  | DrugCookingSpeed: +25%<br>DrugSynthesisSpeed: +25%<br>DrugSellPriceImprovement: +10% |  |  | Flake: 5~10 | 0.4 |  |
 | RCP_Eloquent | eloquent | [PAWN_nameDef] has the gift of gab. Negotiations come naturally to [PAWN_objective]. |  | SocialImpact: +200%<br>NegotiationAbility: +50%<br>TradePriceImprovement: +50%<br>ConversionPower: +50% | Social |  | Apparel_BowlerHat | 0.4 |  |
 | RCP_GreenThumb | green thumb | [PAWN_nameDef] is a plant whisperer. Working with crops comes naturally to [PAWN_objective]. |  | PlantWorkSpeed: +25%<br>PlantHarvestYield: +10% | Plants |  | PlantPot | 0.4 |  |
