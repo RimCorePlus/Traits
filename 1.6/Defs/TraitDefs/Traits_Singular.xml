@@ -45,7 +45,7 @@
                     <SocialImpact>2</SocialImpact>
                     <NegotiationAbility>0.5</NegotiationAbility>
                     <TradePriceImprovement>0.5</TradePriceImprovement>
-                    <ConversionPower MayRequire="Ludeon.Rimworld.Ideology">0.5</ConversionPower>
+                    <ConversionPower MayRequire="Ludeon.RimWorld.Ideology">0.5</ConversionPower>
                 </statOffsets>
                 <possessions>
                     <Apparel_BowlerHat>1</Apparel_BowlerHat>
