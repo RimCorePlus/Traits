@@ -1,0 +1,8 @@
+<Patch>
+    <Operation MayRequire="Ludeon.RimWorld.Ideology" Class="PatchOperationAdd">
+        <xpath>//MemeDef[defName="Transhumanist"]/agreeableTraits</xpath>
+        <value>
+            <li>RCP_SlopEnjoyer</li>
+        </value>
+    </Operation>
+</Patch>

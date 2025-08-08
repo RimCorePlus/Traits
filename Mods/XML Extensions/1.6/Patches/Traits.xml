@@ -119,4 +119,24 @@
             </Operation>
         </caseTrue>
     </Operation>
+    <Operation Class="XmlExtensions.OptionalPatch">
+        <modId>RCP.Traits</modId>
+        <key>RCP_SlopEnjoyer</key>
+        <defaultValue>false</defaultValue>
+        <caseTrue>
+            <Operation Class="PatchOperationReplace">
+                <xpath>//TraitDef[defName="RCP_SlopEnjoyer"]/commonality/text()</xpath>
+                <value>0</value>
+            </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>//li[@Class="XmlExtensions.Setting.ToggleableSettings" and key="RCP_SlopEnjoyer"]/caseFalse/li/xpath</xpath>
+                <value>
+                    <text>Changes are applied on restart.</text>
+                </value>
+            </Operation>
+            <Operation Class="PatchOperationRemove">
+                <xpath>//li[@Class="XmlExtensions.Setting.ToggleableSettings" and key="RCP_SlopEnjoyer"]/caseTrue | //MemeDef[defName="Transhumanist"]/agreeableTraits/li[text()="RCP_SlopEnjoyer"]</xpath>
+            </Operation>
+        </caseTrue>
+    </Operation>
 </Patch>

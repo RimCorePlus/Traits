@@ -8,13 +8,12 @@
                     <li>
                         <label>Backstories</label>
                         <settings>
+                            <li Class="XmlExtensions.Setting.Gap" />
                             <li Class="XmlExtensions.Setting.Text">
-                                <padAbove>4</padAbove>
-                                <padBelow>4</padBelow>
                                 <anchor>Middle</anchor>
                                 <text>Warning! Disabling backstories mid-save will break existing pawns with that backstory.</text>
-                                <tKey>RCPBackstoryWarning</tKey>
                             </li>
+                            <li Class="XmlExtensions.Setting.Gap" />
                             <li Class="XmlExtensions.Setting.Checkbox">
                                 <key>RCP_Gravship1</key>
                                 <label>Gravship colonist</label>
@@ -223,13 +222,12 @@
                     <li>
                         <label>Traits</label>
                         <settings>
+                            <li Class="XmlExtensions.Setting.Gap" />
                             <li Class="XmlExtensions.Setting.Text">
-                                <padAbove>4</padAbove>
-                                <padBelow>4</padBelow>
                                 <anchor>Middle</anchor>
-                                <text>Disabling stops new pawns from getting these traits. Existing pawns are not affected.</text>
-                                <tKey>RCPTraitWarning</tKey>
+                                <text>Disabling prevents new pawns from getting these traits. Existing pawns are not affected.</text>
                             </li>
+                            <li Class="XmlExtensions.Setting.Gap" />
                             <li Class="XmlExtensions.Setting.Checkbox">
                                 <key>RCP_AcePilot</key>
                                 <label>Ace pilot</label>
@@ -371,6 +369,54 @@
                                         <padBelow>4</padBelow>
                                         <padLeft>8</padLeft>
                                         <xpath>//TraitDef[defName="RCP_Laborer"]/degreeDatas/li/description/text()</xpath>
+                                    </li>
+                                </caseFalse>
+                            </li>
+                            <li Class="XmlExtensions.Setting.Checkbox">
+                                <key>RCP_SlopEnjoyer</key>
+                                <label>Slop Enjoyer</label>
+                                <defaultValue>false</defaultValue>
+                            </li>
+                            <li Class="XmlExtensions.Setting.ToggleableSettings">
+                                <key>RCP_SlopEnjoyer</key>
+                                <caseTrue>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <text>Changes are applied on restart.</text>
+                                    </li>
+                                </caseTrue>
+                                <caseFalse>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <xpath>//TraitDef[defName="RCP_SlopEnjoyer"]/degreeDatas/li/description/text()</xpath>
+                                    </li>
+                                </caseFalse>
+                            </li>
+                            <li MayRequire="Ludeon.RimWorld.Anomaly" Class="XmlExtensions.Setting.Checkbox">
+                                <key>RCP_VoidRepulsion</key>
+                                <label>Void Repulsion</label>
+                                <defaultValue>false</defaultValue>
+                            </li>
+                            <li MayRequire="Ludeon.RimWorld.Anomaly" Class="XmlExtensions.Setting.ToggleableSettings">
+                                <key>RCP_VoidRepulsion</key>
+                                <caseTrue>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <text>Changes are applied on restart.</text>
+                                    </li>
+                                </caseTrue>
+                                <caseFalse>
+                                    <li Class="XmlExtensions.Setting.Text">
+                                        <font>Tiny</font>
+                                        <padBelow>4</padBelow>
+                                        <padLeft>8</padLeft>
+                                        <xpath>//TraitDef[defName="RCP_VoidRepulsion"]/degreeDatas/li/description/text()</xpath>
                                     </li>
                                 </caseFalse>
                             </li>

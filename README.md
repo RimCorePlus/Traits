@@ -25,14 +25,16 @@
 ## Traits
 Traits commonalities are low because they are intended to be rare and unobtrusive. Pawns will not spawn with more than one trait from this list.
 
-| defName | label | description | statFactors | statOffsets | forcedPassions | disabledWorkTags | possessions | commonality | prerequisites |
-|---|---|---|---|---|---|---|---|---|---|
-| RCP_AcePilot | ace pilot | [PAWN_nameDef]'s heart yearns for the stars. |  | PilotingAbility: +50% | Intellectual |  | PilotAssistant | 0.4 |![RimWorld Odyssey][badge-dlc-odyssey] |
-| RCP_Fisherman | angler | [PAWN_nameDef] loves casting lines. [PAWN_pronoun] catches fish faster than everyone else. |  | FishingSpeed: +25%<br>FishingYield: +10% | Animals |  | Fish_Catfish: 5~10 | 0.4 |![RimWorld Odyssey][badge-dlc-odyssey] |
-| RCP_DrugDealer | drug dealer | [PAWN_nameDef] has a knack for cutting deals on illicit substances and can synthesize drugs with remarkable efficiency. |  | DrugCookingSpeed: +25%<br>DrugSynthesisSpeed: +25%<br>DrugSellPriceImprovement: +10% |  |  | Flake: 5~10 | 0.4 |  |
-| RCP_Eloquent | eloquent | [PAWN_nameDef] has the gift of gab. Negotiations come naturally to [PAWN_objective]. |  | SocialImpact: +200%<br>NegotiationAbility: +50%<br>TradePriceImprovement: +50%<br>ConversionPower: +50% | Social |  | Apparel_BowlerHat | 0.4 |  |
-| RCP_GreenThumb | green thumb | [PAWN_nameDef] is a plant whisperer. Working with crops comes naturally to [PAWN_objective]. |  | PlantWorkSpeed: +25%<br>PlantHarvestYield: +10% | Plants |  | PlantPot | 0.4 |  |
-| RCP_Laborer | laborer | [PAWN_nameDef] lacks the finesse for skilled tasks, but excels at hard, physical labor. | GeneralLaborSpeed: 50% | CleaningSpeed: +25%<br>CarryingCapacity: +15 |  | ManualSkilled |  | 0.1 |  |
+| defName | label | description | statFactors | statOffsets | forcedPassions | disabledWorkTags | possessions | commonality | effect | prerequisites |
+|---|---|---|---|---|---|---|---|---|---|---|
+| RCP_AcePilot | ace pilot | [PAWN_nameDef]'s heart yearns for the stars. |  | PilotingAbility: +50% | Intellectual |  | PilotAssistant | 0.6 |  | RimWorld Odyssey |
+| RCP_Fisherman | angler | [PAWN_nameDef] loves casting lines. [PAWN_pronoun] catches fish faster than everyone else. |  | FishingSpeed: +25%<br>FishingYield: +10% | Animals |  | Fish_Catfish: 5~10 | 0.6 |  | RimWorld Odyssey |
+| RCP_DrugDealer | drug dealer | [PAWN_nameDef] has a knack for cutting deals on illicit substances and can synthesize drugs with remarkable efficiency. |  | DrugCookingSpeed: +25%<br>DrugSynthesisSpeed: +25%<br>DrugSellPriceImprovement: +10% |  |  | Flake: 5~10 | 0.6 |  |  |
+| RCP_Eloquent | eloquent | [PAWN_nameDef] has the gift of gab. Negotiations come naturally to [PAWN_objective]. |  | SocialImpact: +200%<br>NegotiationAbility: +50%<br>TradePriceImprovement: +50%<br>ConversionPower: +50% | Social |  | Apparel_BowlerHat | 0.6 |  |  |
+| RCP_GreenThumb | green thumb | [PAWN_nameDef] is a plant whisperer. Working with crops comes naturally to [PAWN_objective]. |  | PlantWorkSpeed: +25%<br>PlantHarvestYield: +10% | Plants |  | PlantPot | 0.6 |  |  |
+| RCP_Laborer | laborer | [PAWN_nameDef] lacks the finesse for skilled tasks, but excels at hard, physical labor. | GeneralLaborSpeed: 50% | CleaningSpeed: +25%<br>CarryingCapacity: +15 |  | ManualSkilled |  | 0.3 |  |  |
+| RCP_SlopEnjoyer | slop enjoyer | [PAWN_nameDef] appreciates the taste of nutrient paste. [PAWN_pronoun] will never complain about eating it. |  |  |  |  | MealNutrientPaste: 2~4 | 0.6 | No mood penalty for eating nutrient paste. |  |
+| RCP_VoidRepulsion | void repulsion | [PAWN_nameDef] believes unnatural entities are the harbinger of end times. [PAWN_pronoun] would rather kill them than study them. |  |  |  |  | Shard | 0.3 | Forces Entity Killer and Insane Rambling mental breaks. Disallows Entity Liberator mental break. | RimWorld Anomaly |
 
 ## Legal
 Portions of the materials used to create this mod are trademarks and/or copyrighted works of Ludeon Studios Inc. All rights reserved by Ludeon. This mod is not official and is not endorsed by Ludeon.
