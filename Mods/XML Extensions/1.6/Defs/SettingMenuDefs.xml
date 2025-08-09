@@ -374,7 +374,7 @@
                             </li>
                             <li Class="XmlExtensions.Setting.Checkbox">
                                 <key>RCP_SlopEnjoyer</key>
-                                <label>Slop Enjoyer</label>
+                                <label>Slop enjoyer</label>
                                 <defaultValue>false</defaultValue>
                             </li>
                             <li Class="XmlExtensions.Setting.ToggleableSettings">
@@ -398,7 +398,7 @@
                             </li>
                             <li MayRequire="Ludeon.RimWorld.Anomaly" Class="XmlExtensions.Setting.Checkbox">
                                 <key>RCP_VoidRepulsion</key>
-                                <label>Void Repulsion</label>
+                                <label>Void repulsion</label>
                                 <defaultValue>false</defaultValue>
                             </li>
                             <li MayRequire="Ludeon.RimWorld.Anomaly" Class="XmlExtensions.Setting.ToggleableSettings">

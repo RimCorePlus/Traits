@@ -139,4 +139,24 @@
             </Operation>
         </caseTrue>
     </Operation>
+    <Operation MayRequire="Ludeon.RimWorld.Anomaly" Class="XmlExtensions.OptionalPatch">
+        <modId>RCP.Traits</modId>
+        <key>RCP_VoidRepulsion</key>
+        <defaultValue>false</defaultValue>
+        <caseTrue>
+            <Operation Class="PatchOperationReplace">
+                <xpath>//TraitDef[defName="RCP_VoidRepulsion"]/commonality/text()</xpath>
+                <value>0</value>
+            </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>//li[@Class="XmlExtensions.Setting.ToggleableSettings" and key="RCP_VoidRepulsion"]/caseFalse/li/xpath</xpath>
+                <value>
+                    <text>Changes are applied on restart.</text>
+                </value>
+            </Operation>
+            <Operation Class="PatchOperationRemove">
+                <xpath>//li[@Class="XmlExtensions.Setting.ToggleableSettings" and key="RCP_VoidRepulsion"]/caseTrue</xpath>
+            </Operation>
+        </caseTrue>
+    </Operation>
 </Patch>
