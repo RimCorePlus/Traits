@@ -42,7 +42,7 @@
         <degreeDatas>
             <li>
                 <label>eloquent</label>
-                <description>[PAWN_nameDef] has the gift of gab. Negotiations come naturally to [PAWN_objective].</description>
+                <description>[PAWN_nameDef] has the gift of gab. Negotiation comes naturally to [PAWN_objective].</description>
                 <statOffsets>
                     <SocialImpact>2</SocialImpact>
                     <NegotiationAbility>0.5</NegotiationAbility>
@@ -222,6 +222,39 @@
             <li>RCP_GreenThumb</li>
             <li>RCP_Laborer</li>
             <li MayRequire="Ludeon.RimWorld.Anomaly">RCP_VoidRepulsion</li>
+        </conflictingTraits>
+    </TraitDef>
+    <TraitDef MayRequire="Ludeon.RimWorld.Anomaly">
+        <defName>RCP_VoidRepulsion</defName>
+        <commonality>0.3</commonality>
+        <degreeDatas>
+            <li>
+                <label>void repulsion</label>
+                <description>[PAWN_nameDef] believes unnatural entities are the harbinger of end times. [PAWN_pronoun] would rather kill them than study them.</description>
+                <disallowedMeditationFocusTypes>
+                    <li>Void</li>
+                </disallowedMeditationFocusTypes>
+                <!-- Redundant?
+                <disallowedMentalStates>
+                    <li>EntityLiberator</li>
+                </disallowedMentalStates> -->
+                <theOnlyAllowedMentalBreaks>
+                    <li>EntityKiller</li>
+                    <li>InsaneRamblings</li>
+                </theOnlyAllowedMentalBreaks>
+                <possessions>
+                    <Shard>1</Shard>
+                </possessions>
+            </li>
+        </degreeDatas>
+        <conflictingTraits>
+            <li>RCP_AcePilot</li>
+            <li>RCP_DrugDealer</li>
+            <li>RCP_Eloquent</li>
+            <li>RCP_Fisherman</li>
+            <li>RCP_GreenThumb</li>
+            <li>RCP_Laborer</li>
+            <li>RCP_SlopEnjoyer</li>
         </conflictingTraits>
     </TraitDef>
 </Defs>
